@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Portifólio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Portifólio</h1>
+        </header>
+
+        <nav> <!--Coloquei id neles para puxarem no comando do JS, aparece um alerta após ser clicado-->
+            <a href="#" id="meuLink">Início</a>
+            <a href="#" id="meuLink1">Projetos</a>
+            <a href="#" id="meuLink2">Contato</a>
+        </nav>
+
+        <main>
+            <div class="apresentacao">
+                    <img src="Foto-Perfil (1).png" alt="Minha foto de perfil">
+                    <h2>"Hello World"</h2>
+                    <p>Olá, meu nome é João Pedro, DEV em construção e estudante do 1º período do curso de Sistemas de Informação.</p>
+            </div>
+            <div class="linguagens">
+                <h2>Linguagens</h2>
+                <div class="icones-linguagens">
+                    <img src="icons8-python-94.png" alt="Python">
+                    <img src="html5.png" alt="HTML">
+                    <img src="icons8-javascript-48.png" alt="JavaScript">
+                </div>
+                <ul>
+                    <li>Python</li>
+                    <li>HTML</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+            <div class="meus-projetos">
+                <h2>Meus Projetos</h2>
+            </div>
+                <div class="projeto-arte">
+                    <div class="projeto-info">
+                        <img src="Arte Meus Projetos.png" alt="projeto">
+                        <a href="projeto-oficial web/prototipo-oficial.html">Universo Líterario</a>
+                        <p>Desenvolvemos este trabalho em grupo com o intuito de criar uma biblioteca online com avaliações (reviews) e leitura de PDFs integrada. Embora a aplicação ainda seja limitada em algumas funcionalidades, vale ressaltar que este foi o nosso primeiro projeto prático, marcando o início da nossa trajetória no desenvolvimento.</p>
+                    </div>
+                </div>
+            <div class="bio">
+                <h2>Sobre mim</h2>
+                <p>Olá! Sou o João Pedro e tenho 20 anos. Entrei recentemente para a área de tecnologia e, embora sempre tenha sido apaixonado por esse universo, eu não tinha a real dimensão de onde ele poderia chegar.</p>
+                <p> Hoje, estou cursando Sistemas de Informação e amando a experiência. A cada dia que passa, sinto com mais certeza de que encontrei a minha área.</p>
+                <h2>Meus interesses</h2>
+                    <li>
+                        <ul>Tecnologia</ul>
+                        <ul>Jogos</ul>
+                        <ul>Esportes</ul>
+                        <ul>Viagens</ul>
+                        <ul>Conversas</ul>
+                    </li>
+            </div>
+            <div class="contato">
+                <h2>Contato</h2>
+                <form action="">
+                    <div>
+                        <label for="name">
+                            Nome: <br>
+                            <input type="text" name="nome" id="nome" required>
+                        </label>        
+                    </div>
+                    <div>                
+                        <label for="e-mail">
+                            E-mail: <br>
+                            <input type="text" name="e-mail" id="e-mail" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label for="telefone">
+                            Telefone: <br>
+                            <input type="number" name="telefone" id="telefone" required>
+                        </label>
+                    </div>
+                    <div>
+                        <button type="submit" id="submitbtn">Enviar</button>
+                    </div>
+                    <div id="mensagem-sucesso"></div>
+                </form>
+            </div>
+            <div class="despedida">
+                <p>Muito obrigado por acessar meu portfólio. Espero que tenha gostado, esse é o primeiro de muitos irei melhorar muito ao decorrer do tempo.</p>
+            </div>
+             <footer>
+                <p>Trabalho realizado pelo o João Pedro 21-06-26, &copy;Todos os direitos reservados.</p>
+            </footer>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
